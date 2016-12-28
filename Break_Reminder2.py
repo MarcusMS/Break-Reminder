@@ -1,5 +1,4 @@
 import sys
-import threading 
 from tkinter import *
 from tkinter import messagebox, colorchooser
 from tkinter import ttk
@@ -41,7 +40,6 @@ def video_break():
         return
     
     def exit2():        
-       
         top.destroy()
 
     
